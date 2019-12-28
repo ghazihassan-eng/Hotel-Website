@@ -1,0 +1,213 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	padding: 0px 20px;
+	max-width: 1500px;
+}
+h1,h2,h3{
+	padding-bottom: 20px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+p{
+	margin: 10px 0px;
+}
+.clr{
+	clear: both;
+}
+.text-primary{
+	color: coral;
+}
+.text-back{
+	background-color:coral;
+	color: black; 
+}
+.lead{
+	font-size:20px;
+	
+}
+.current{
+	background-color: grey;
+	color: black;
+}
+.py-1{padding: 10px ;}
+.py-2{padding: 20px ;}
+.py-3{padding: 30px ;}
+.btn{
+	font-size: 20px;
+	color: white;
+	display: inline-block;
+	background-color: black;
+	padding:10px 10px;
+	border:none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.btn:hover{
+	color: black;
+	background-color: darkgrey;
+}
+.bg-dark{
+	background-color: #333;
+	color: white;
+}
+.fix{
+	position: fixed;
+}
+#navbar{
+	background-color: black;
+	color: white;
+	overflow: auto;
+	
+	width: 100%;
+}
+#navbar h1{
+	padding: 20px;
+	float: left;
+}
+#navbar a{
+	color: white;
+}
+#navbar ul{
+	float: right;
+	list-style: none;
+
+}
+#navbar ul li{
+	float: left;
+}
+#navbar ul li a{
+	text-align: center;
+	display: block;
+	padding: 30px;
+
+}
+#navbar ul li a:hover{
+	background-color: darkgrey;
+	color: black;
+}
+#showcase{
+	background-image: url(main.jpg);
+	background-position: center center;
+	background-size: cover;
+	height: 700px;
+	background-attachment: fixed;
+
+}
+#showcase .showcase-content{
+	color: white;
+	text-align: center;
+	padding-top: 200px;
+
+}
+.showcase-content h1{
+	font-size: 60px;
+}
+#homeinfo{
+	height: 400px;
+	width: 100%;
+}
+#homeinfo .homeinfo-img{
+	width: 50%;
+	height: 100%;
+	background-image: url('infohome-img.jpg' );
+	float: left;
+	background-position:center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}
+#homeinfo .homeinfo-content{
+	float: right;
+	text-align: center;
+	padding: 60px 30px;
+	width: 50%;
+	height: 100%;
+	
+
+}
+.box{
+	width: 33.3%;
+	float: left;
+	padding: 50px;
+	text-align: center;
+}
+.box i{
+	padding-bottom: 10px;
+	
+}
+.main-footer{
+	text-align: center;
+	padding: 20px;
+	background-color: #333;
+	color: white;
+}
+.left-info{
+	float: left;
+	width: 50%;
+	height:400px;
+}
+.right-info{
+	width: 50%;
+	float: right;
+	background-image: url(aboutright.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-color: grey;
+	height: 400px;
+	border-radius: 50%;
+}
+
+#testonium{
+	height: 600px;
+	background-image: url(textback.jpg) ;
+	background-size: cover;
+	padding: 40px;
+	background-attachment: fixed;
+
+}
+.testonium{
+	height: 200px;
+	width: 100%;
+	padding: 40px;
+	margin-bottom: 10px;
+	border-radius: 1%;
+	opacity: 0.9;
+}
+.testonium img{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-right: 5px;
+	border-radius: 50%;
+}
+#testonium h2{
+	text-align: center;
+	padding-bottom: 40px;
+
+}
+.form-group{
+	margin-bottom: 20px;
+	
+}
+.form-group label{
+	margin-bottom: 20px;
+	display: block;
+}
+.contact-form input,textarea,button{
+	padding: 10px;
+	width: 100%;
+	border:1px solid coral;
+}
+.contact-form textarea{
+	height: 200px;
+}
+.contact-form input:focus{
+	border-color: blue;
+}

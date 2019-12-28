@@ -1,0 +1,90 @@
+.fix{
+	position: none;
+}
+#navbar h1{
+	padding: 10px;
+	float: none;
+	text-align: center;
+}
+#navbar ul{
+	float: none;
+	
+
+}
+#navbar ul li{
+	float: none;
+}
+#navbar ul li a{
+	text-align: center;
+	display: block;
+	padding: 15px;
+	border-bottom: 1px  dotted;
+
+}
+#showcase{
+
+	background-image: url(main.jpg) center center/cover;
+	background-attachment: fixed ;
+	height: 700px;
+	
+
+}
+#showcase .showcase-content{
+	color: white;
+	text-align: center;
+	padding-top: 300px;
+
+}
+#homeinfo .homeinfo-content{
+	float: right;
+	text-align: center;
+	padding: 30px 20px;
+	width: 50%;
+	height: 100%;
+	
+
+}
+.box i{
+	padding-bottom: 5px;
+	
+}
+.box{
+	width: 33.3%;
+	float: left;
+	padding: 40px;
+	text-align: center;
+}
+#testonium h2{
+	text-align: center;
+	padding-bottom: 10px;
+
+}
+.testonium{
+	font-size: 13px;
+}
+
+.form-group{
+	margin-bottom: 15px;
+	
+}
+.form-group label{
+	margin-bottom: 15px;
+	display: block;
+}
+.contact-form input,textarea,button{
+	padding: 8px;
+	width: 100%;
+	border:1px solid coral;
+}
+.contact-form textarea{
+	height: 100px;
+}
+.contact-form input:focus{
+	border-color: blue;
+}
+.contact-info p{
+	font-size: 10px;
+}
+.contact-info h1,h2,h3{
+	font-size: 15px;
+}
